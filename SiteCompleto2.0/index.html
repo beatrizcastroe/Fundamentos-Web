@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <style>
+      .tm-social{
+        width: 40px;
+        height: 40px;
+      }
+      .img {
+        object-fit: cover;
+        transition: transform 0.5s;
+      }
+      .img:hover {
+        transform: scale(1.2);
+      }
+    </style>
+    <title>Blog da Neo</title>
+    <link rel="shortcut icon" href="assets/img/home.png">
+  </head>
+  
+  <body>
+    <!--Menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <a class="navbar-brand" href="index.html"><img src="assets/img/home.png" width="40px" height="40px" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#"><img src="assets/img/homee.png" width="150px" height="20px" alt=""> <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle text-light mx-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sobre nós
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Nossa história </a>
+                <a class="dropdown-item" href="#">Equipe</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Contato</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled text-light mx-2" href="#">Campeonatos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled text-light mx-2" href="#">Line-Up's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled text-light mx-2" href="#">Loja</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+
+            <button class="btn btn-outline-secondary my-2 my-sm-0 m-1" type="submit">Log-in</button>
+            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Sign-in</button>
+          </form>
+        </div>
+      </nav>
+    <!--/Menu-->
+
+    <!--Carousel-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img style="height: 400px; width: 600px" class="d-block w-100" src="assets/img/carousel1.jpg" alt="Primeiro Slide">
+            </div>
+            <div class="carousel-item">
+              <img style="height: 400px; width: 600px" class="d-block w-100" src="assets/img/carousel2.jpg" alt="Segundo Slide">
+            </div>
+            <div class="carousel-item">
+              <img style="height: 400px; width: 600px" class="d-block w-100" src="assets/img/carousel3.jpg" alt="Terceiro Slide">
+            </div>
+          </div>
+        
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+    </div>
+    <!--/Carousel-->
+
+    <!--Cards-->
+    <h2 class=" container m-3">Mais lidas</h2>
+    <div class="card-group">
+      <div class="card m-3 img">
+        <div class="card-body">
+          <h5 class="card-title">Semana do Consumidor</h5>
+          <p class="card-text">Nessa semana, toda loja em até 6x sem juros ou 15% de desconto à vista. Promoção valida entre os dias 24/09/21 até 02/10/21 ou até durarem os estoques.</p>
+          <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          <div class="d-flex justify-content-end">
+            <a class="btn btn-outline-dark text-dark" href="#" role="button">Leia mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="card m-3 img bg-info">
+        <div class="card-body">
+          <h5 class="card-title text-light">Circuito Feminino</h5>
+          <p class="card-text text-light">Nesse final de semana vai rolar a qualify para a segunda etapa do Circuito Feminino de Rainbow Six. As finais acontecerão no Rio de Janeiro na GameXP.</p>
+          <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          <div class="d-flex justify-content-end">
+            <a class="btn btn-outline-dark text-light" href="#" role="button">Leia mais</a>
+          </div>
+        </div>
+      </div>
+      <div class="card m-3 img">
+        <div class="card-body">
+          <h5 class="card-title">Valeu, meninas!</h5>
+          <p class="card-text">Lutamos até o fim, mas nessa a Revoltz levou a melhor! As meninas da Neo perdem nas oitavas da final do Brasileirão do R6</p>
+          <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+          <div class="d-flex justify-content-end">
+            <a class="btn btn-outline-dark text-dark" href="#" role="button">Leia mais</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/Cards-->
+
+    <!--Jumbotron-->
+    
+      <div class="jumbotron jumbotron-fluid" style="background-image: url(assets/img/carousel1.jpg); opacity: 6;">
+        <h1 class="display-5 text-center text-info">NOTA OFICIAL</h1>
+        <hr class="my-4">
+        <p class="lead m-2 text-center text-info">Após atuação entre os Blues em várias temporadas do CBLoL, a Neo Blue e-Sports se despede de Guilherme “Kake” Morais. O profissional iniciou na organização como analista, até assumir a posição de head coach na atual temporada do Campeonato Brasileiro.
+
+          A Neo agradece o tempo dedicado por Kake e desejam sucesso em sua carreira.
+          A equipe continua a atuar sob o comando de Alexander “Abaxial” Haibel e o analista Mike “Freizer” Paiva.</p>        
+        <div class="d-flex justify-content-center">
+          <a class="btn btn-dark btn-lg my-4" href="#" role="button">Leia mais</a>
+        </div>
+        
+    </div>
+   
+    
+    <!--/Jumbotron-->
+
+    <!--Cards-->
+    <div class="container">
+        <div class="card-columns">
+            <div class="card img">
+              <img class="card-img-top" src="assets/img/card1.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">
+              </div>
+            </div>
+    
+           
+            <div class="card bg-info text-white text-center p-3 img">
+              <blockquote class="blockquote mb-0">
+                <p>Sempre lute com garra e determinação pelos seus ideais.
+                  O verdadeiro campeão é aquele que acredita na vitória!</p>
+                <footer class="blockquote-footer">
+                  <small>
+                    <cite title="Título da fonte">Izzo Rocha </cite>
+                  </small>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="card text-center img">
+              <div class="card-body">
+                <h5 class="card-title">Rainbow Six no SportTV</h5>
+                <p class="card-text">Fala torcida azul! Saiu nossa matéria sobre o Circuito Feminino de Raibow Six no SportTV. Confere lá! #GoNeo
+                </p>
+                <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
+              </div>
+            </div>
+            <div class="card img">
+              <img class="card-img" src="assets/img/card3.png" alt="Imagem do card">
+            </div>
+            
+            
+          </div>
+    </div>
+   
+    <!--/Cards-->
+
+    <!--Texto e Vídeo-->
+    <div class="container bg-dark">
+        <div class="row mt-5 mb-5">
+            <div class="col-md-6 text-light">
+                <h2>Confira a entrevista da line feminina de R6!</h2>
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, eius, facere dolorem quasi quod vel adipisci tempore harum dignissimos quibusdam iste distinctio laborum dolor! Dolorem reiciendis corporis iure harum autem!</p>
+                <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, eius, facere dolorem quasi quod vel adipisci tempore harum dignissimos quibusdam iste distinctio laborum dolor! Dolorem reiciendis corporis iure harum autem!</p>
+            </div>
+
+            <div class="col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/IOkvOrZ5jLo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        </div>
+    <!--/Texto e Vídeo-->
+
+    <!--Formulário de contato-->
+    <div class="container bg-info">
+      <div class="row mb-5">
+        <div class="col-md-12">
+          <h4 class="text-center text-light m-3">
+            Entre em contato
+          </h4>
+        </div>
+      </div>
+      <div class="row d-flex align-items-center">
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label class="text-light" for="exampleFormControlInput1">Nome</label>
+              <input type="name" class="form-control" id="exampleFormControlInput1" placeholder="Fulano de Tal">
+            </div>
+            <div class="form-group">
+              <label class="text-light" for="exampleFormControlInput1">Endereço de email</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
+            </div>
+           
+            <div class="form-group">
+              <label class="text-light" for="exampleFormControlTextarea1">Exemplo de textarea</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+  
+            <div class="form-group d-flex justify-content-end">
+              <button class="btn btn-outline-dark text-light">Enviar</button>
+            </div>
+          </form>
+        </div>
+  
+        <div class="col-md-6">
+          <iframe class="w-100" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.813861499591!2d-38.46721688577263!3d-12.983754263569896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7161b3d7734b21b%3A0x4c20db4607694550!2sIguatemi%20Business%20Flat!5e0!3m2!1spt-BR!2sbr!4v1632483751504!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+      </div>
+  
+    </div>
+    
+    
+
+    <!--/Formulário de contato-->
+
+    <!--Footer-->
+    <hr>
+    <footer>
+      <div class="row mb-3 ">
+          <div class="col-md-12 d-flex justify-content-center">
+            <a href="https://www.linkedin.com/in/beatrizcastroe/" target="_blank" class="p-3">
+              <img class="tm-social" src="assets/img/linkedin (1).png" alt="Logo do Linkedin">
+          </a>
+          <a href="https://www.facebook.com/beatriz.cassiano.12/"target="_blank" class="p-3">
+              <img class="tm-social" src="assets/img/facebook.png" alt="Logo do Facebook">
+          </a>
+          <a href="https://www.instagram.com/beatrizcastroe/"target="_blank" class="p-3">
+              <img class="tm-social" src="assets/img/instagram.png" alt="Logo do Instagram">
+          </a>
+          <a href="https://twitter.com/beatrizcass1"target="_blank" class="p-3">
+              <img class="tm-social" src="assets/img/twitter (1).png" alt="Logo do Twitter">
+          </a>
+          </div>
+      </div>
+    </div>
+
+
+      <div class="row">
+        <div class="col-md-12">
+          <p class="text-center">
+            Neo Blue E-Sports &copy; 2021. Todos os direitos reservados. 
+            Email: contato@neobluesports.com.br
+          </p>
+        </div>
+      </div>
+        
+    <!--/Footer-->
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

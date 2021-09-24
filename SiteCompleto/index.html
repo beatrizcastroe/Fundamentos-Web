@@ -12,6 +12,13 @@
         width: 40px;
         height: 40px;
       }
+      .img {
+        object-fit: cover;
+        transition: transform 0.5s;
+      }
+      .img:hover {
+        transform: scale(1.2);
+      }
     </style>
     <title>NEO BLUE</title>
   </head>
@@ -88,26 +95,29 @@
     <!--/Carousel-->
 
     <!--Jumbotron-->
-    <div class="jumbotron jumbotron-fluid bg-info">
+    <div class="container">
+      <div class="jumbotron jumbotron-fluid bg-info">
         <h1 class="display-4">Olá, mundo!</h1>
         <p class="lead">Este é um simples componente jumbotron para chamar mais atenção a um determinado conteúdo ou informação.</p>
         <hr class="my-4">
         <p>Ele usa classes utilitárias para tipografia e espaçamento de conteúdo, dentro do maior container.</p>
         <a class="btn btn-primary btn-lg" href="#" role="button">Leia mais</a>
     </div>
+    </div>
+    
     <!--/Jumbotron-->
 
     <!--Cards-->
     <div class="container">
         <div class="card-columns">
-            <div class="card">
+            <div class="card img">
               <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
               <div class="card-body">
                 <h5 class="card-title">Título do card que quebra em uma nova linha</h5>
                 <p class="card-text">Este é um card mais longo com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este conteúdo é um pouco maior.</p>
               </div>
             </div>
-            <div class="card p-3">
+            <div class="card p-3 img">
               <blockquote class="blockquote mb-0 card-body">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                 <footer class="blockquote-footer">
@@ -117,7 +127,7 @@
                 </footer>
               </blockquote>
             </div>
-            <div class="card">
+            <div class="card img">
               <img class="card-img-top" src=".../100px160/" alt="Imagem de capa do card">
               <div class="card-body">
                 <h5 class="card-title">Título do card</h5>
@@ -125,7 +135,7 @@
                 <p class="card-text"><small class="text-muted">Atualizados 3 minutos atrás</small></p>
               </div>
             </div>
-            <div class="card bg-primary text-white text-center p-3">
+            <div class="card bg-primary text-white text-center p-3 img">
               <blockquote class="blockquote mb-0">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
                 <footer class="blockquote-footer">
@@ -135,7 +145,7 @@
                 </footer>
               </blockquote>
             </div>
-            <div class="card text-center">
+            <div class="card text-center img">
               <div class="card-body">
                 <h5 class="card-title">Título do card</h5>
                 <p class="card-text">Este é um card com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional.</p>
@@ -145,7 +155,7 @@
             <div class="card">
               <img class="card-img" src=".../100px260/" alt="Imagem do card">
             </div>
-            <div class="card p-3 text-right">
+            <div class="card p-3 text-right img">
               <blockquote class="blockquote mb-0">
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                 <footer class="blockquote-footer">
@@ -155,7 +165,7 @@
                 </footer>
               </blockquote>
             </div>
-            <div class="card">
+            <div class="card img">
               <div class="card-body">
                 <h5 class="card-title">Título do card</h5>
                 <p class="card-text">Este é um card maior com suporte a texto embaixo, que funciona como uma introdução a um conteúdo adicional. Este card tem o conteúdo ainda maior que o primeiro, para mostrar a altura igual, em ação.</p>
@@ -185,7 +195,6 @@
     <!--/Texto e Vídeo-->
 
     <!--Formulário de contato-->
-
     <div class="row mb-5">
       <div class="col-md-12">
         <h4 class="text-center">
@@ -193,7 +202,6 @@
         </h4>
       </div>
     </div>
-
     <div class="row d-flex align-items-center">
       <div class="col-md-6">
         <form>
@@ -208,7 +216,7 @@
           </div>
 
           <div class="form-group d-flex justify-content-end">
-            <button class="btn btn-outline-success">Enviar</button>
+            <button class="btn btn-outline-dark">Enviar</button>
           </div>
         </form>
       </div>
